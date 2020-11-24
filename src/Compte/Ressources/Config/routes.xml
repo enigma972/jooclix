@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+	<route url="/account/dashboard" module="Compte" controller="DashboardController" action="dashboard" vars="" />
+	<route url="/account/personnals" module="Compte" controller="DashboardController" action="personnals" vars="" />
+	<route url="/joogrid" module="Compte" controller="DashboardController" action="grid" vars="" />
+	<route url="/account/banners" module="Compte" controller="DashboardController" action="banners" vars="" />
+	<route url="/account/pub" module="Compte" controller="DashboardController" action="pub" vars="" />
+	<route url="/account/add" module="Compte" controller="DashboardController" action="addFunds" vars="" />
+	<route url="/advertise" module="Compte" controller="DashboardController" action="advertise" vars="" />
+	<route url="/account/rr" module="Compte" controller="DashboardController" action="rr" vars="" />
+	<route url="/account/rd" module="Compte" controller="DashboardController" action="rd" vars="" />
+	<route url="/account/rentrd" module="Compte" controller="DashboardController" action="rent_RD" vars="" />
+	<route url="/account/rentrr" module="Compte" controller="DashboardController" action="rent_RR" vars="" />
+	<route url="/inscription\.php" module="Compte" controller="AuthenticationController" action="inscription" />
+	<route url="/connexion\.php" module="Compte" controller="AuthenticationController" action="connexion" />
+	<route url="/activateaccount" module="Compte" controller="AuthenticationController" action="activateAccount" />
+	<route url="/logout" module="Compte" controller="AuthenticationController" action="logout" />
+</routes>

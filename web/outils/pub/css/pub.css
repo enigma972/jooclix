@@ -1,0 +1,43 @@
+.pub-wrapper{
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+    background: rgba(255,255,255,0.4);
+    border-top: 6px solid #29553b;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.pub-header{
+    width:100%;
+    margin: auto;
+    background: black;
+    padding: 10px;
+}
+.pub-title{
+    float: left;
+    width:50%;
+    color: white;
+    font-family: cursive;
+    font-size: 2em;
+}
+.pub-header-btn{
+    float: left;
+    width:50%;
+    margin-top: 1%;
+}
+.pub-header-btn a{
+    background: green;
+    padding:4px 10px;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+}
+.pub{
+    padding: 20px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+
+}
+.pub span{
+    font-family: cursive;
+    color: green;
+}

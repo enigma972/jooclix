@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <route url="/demo" module="Demo" controller="DemoController" action="index" vars=""/>
+    <route url="/demo/login" module="Demo" controller="DemoController" action="login" vars=""/>
+    <route url="/demo/hello/?(.*)" module="Demo" controller="DemoController" action="hello" vars="name"/>
+    <route url="/demo/test" module="Demo" controller="DemoController" action="test" vars=""/>
+</routes>

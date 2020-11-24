@@ -1,0 +1,130 @@
+.grid{
+	padding-top: 5%;
+}
+.grid-title{
+	width: 45%;
+	margin: auto;
+	margin-top: 3%!important;
+}
+.grid-title p{
+	color: white!important;
+	font-size: 2em;
+	background: -webkit-linear-gradient(30deg,rgb(81, 142, 4) 0%,#5eff1b 130%);
+	border:none!important;
+}
+.grid-wrapper{
+	background: rgba(255,255,255,0.4);
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+	width: 100%;
+	margin: auto;
+	border-radius: 5px;
+	padding-bottom: 4%;
+	border-top: 6px solid #5ddb00;
+}
+.grid-wrapper2{
+	margin: auto;
+	width:90%;
+}
+
+.grid-child-1{
+	width: 58%;
+	float: left;
+	background: white;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 8px;
+}
+.list-grid{
+	height: 470px; width: 100%;
+	border-top: 7px solid rgb(91, 217, 0);
+}
+.grid-child-1-footer{
+	color: white;
+	background: black;
+	padding:10px;
+}
+.grid-child-2{
+	width: 40%;
+	float: right;
+}
+.grid-child-2-wrapper{
+	width: 70%; margin: auto;
+}
+.list-grid{
+
+}
+.list-grid table{
+	height:100%!important;
+}
+.list-grid table tr td{
+	display: inline-block;
+	padding:1.7%!important;
+	cursor: pointer;
+	border-right:1px solid rgba(0,0,0,0.2)!important;
+	border-bottom: 1px solid rgba(0,0,0,0.2)!important;
+	border-top:none!important;
+}
+
+
+.list-grid td:hover{
+	background: green;
+}
+
+#recent-static{
+	background: white;
+	margin-top: 1%;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 8px;
+	padding-bottom: 5px; 
+}
+
+.btn-recent{
+	padding: 3px;
+	color:white;
+	border-color: #bce8f1;
+	width: 100%;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+#recent-static table{
+	overflow: auto;
+	height: 240px;
+	display: block;
+	padding: 10px;
+
+}
+
+.btn-recent span{
+	display: block;
+	text-align: center;
+	font-size: 20px; font-weight: 400;
+	font-family: cursive;
+}
+
+
+
+#chance{
+	margin-bottom: 5%;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 8px;
+}
+
+#chance .chance-body{
+	padding: 10px;
+	background: white;
+}
+
+.chance-body span {
+	font-family: Sylfaen;
+	font-size: 13px;
+}
+
+#grid-stat{
+	font-size: 13px;
+}
+
+#bottom-tab td{
+	border-bottom: 2px solid #eee; width: 100%;
+border-bottom: 2px solid #eee; width: 100%;
+border-bottom: 2px solid #eee; width: 100%;
+}
+
+#bottom-tab{
+	height: 10px;
+}

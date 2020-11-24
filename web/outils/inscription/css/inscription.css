@@ -1,0 +1,151 @@
+.inscription{
+	padding-top: 5%;
+}
+.inscription-wrapper{
+	background: rgba(255,255,255,0.4);
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+	width: 100%;
+	margin: auto;
+	border-radius: 5px;
+	padding-bottom: 4%;
+	border-top: 6px solid #5ddb00;
+}
+
+form .form-group{
+	margin-bottom: 9%!important;
+}
+.inscription-title{
+	background: -webkit-linear-gradient(30deg,rgb(81, 142, 4) 0%,#5eff1b 130%);
+	position: relative;
+	padding: 10px;
+	width: 30%;
+	top: 30px;
+	left: -60px;
+	text-align: center;
+	color: rgba(255,255,255,0.8);
+	font-family: cursive;
+	font-size: 20px;
+	margin-bottom: 5%;
+}
+
+.inscription-wrapper .inscription-forms{
+	padding-right: 60px;
+	padding-left: 60px;
+	margin: auto;
+	width: 100%;
+}
+.inscription-forms-wrapper-1{
+	float: left;
+	width: 45%;
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+	border: 1px solid #ddd;
+	background: rgba(255,255,255,0.7);
+	padding: 0px 40px;
+	border-top: 7px solid #5bd900;
+	padding-top: 50px!important;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+.inscription-forms-wrapper-2{
+	float: right;
+	width: 45%;
+	border: 1px solid #ddd;
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+	background: rgba(255,255,255,0.7);
+	padding: 0px 40px;
+	border-top: 7px solid #5bd900;
+	padding-top: 40px!important;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+.inscription-forms-wrapper-1 .input{
+	height:40px!important;
+	background: rgba(41, 85, 59,0.1);
+}
+.inscription-forms-wrapper-1 .input-disabled{
+	font-family: cursive;
+	background: #eaeac1!important;
+}
+
+.inscription-forms-wrapper-1 .input-group span{
+	background: #6fb925!important;
+	color: white!important;
+}
+.inscript-btn-submit input{
+	width:100%;
+	border-radius: 7px;
+}
+.inscript-btn-submit input:hover{
+	background: green!important;
+}
+.inscription-text span{
+	font-family: Dialog;
+}
+.accepted-text{
+	color: chocolate;
+	font-family: Dialog;
+	text-decoration: none!important;
+}
+
+.inscription-captcha{
+	width:100%;
+	margin: auto;
+}
+.inscription-captcha input{
+	width: 50%;
+	float: left;
+}
+.inscription-captcha img{
+	width: 45%;
+	float: right;
+}
+.inscription-right-item{
+	margin-bottom: 20%;
+}
+.inscription-right-article{
+	color: grey;
+	font-family: "Leelawadee UI";
+	font-size: 13px;
+	text-transform: capitalize;
+	text-align: center;
+}
+.inscription-right-title{
+	font-size:23px;
+	text-align: center;
+	font-family:cursive;
+}
+
+
+
+.btn-registre{
+	background-color: darkgreen;
+	border-color: darkgreen;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius:0;
+	width:40%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-transform: uppercase;
+}
+
+
+
+
+
+.popover{
+	width:100%!important;
+	background-color: beige!important;
+	transition: 0.7s;
+}
+.popover-title{
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.popover-content{
+	color: grey!important;
+
+	line-height: 25px;
+}

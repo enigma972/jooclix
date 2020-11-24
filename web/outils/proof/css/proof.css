@@ -1,0 +1,68 @@
+.proof{
+	padding-top: 10%;
+}
+.proof-wrapper{
+	width: 100%;
+	margin: auto;
+}
+.proof-slogan{
+	position: absolute;
+	height: 40px;
+	background: -webkit-linear-gradient(30deg,rgb(81, 142, 4) 0%, #5dc386 130%);
+	width:20%;
+	transform: rotate(-40deg);
+	left: -50px;
+	border-radius: 30px;
+}
+.proof-title{
+	position: relative;
+	text-align: center;
+	background: #058100;
+	border-radius: 4px;
+	padding: 10px;
+	color: white;
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 27px;
+}
+.proof-header{
+	height:39px!important;
+    background-color: black;
+    border-color: black;
+}
+
+.proof-header a{
+	text-decoration: none;
+	color: white;
+	font-family: cursive;
+}
+table td{
+	padding: 10px!important;
+}
+.proof-user img{
+	height: 25px;
+}
+.proof-btn span{
+	padding: 7px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: whitesmoke;
+	box-shadow: 0px 2px 6px rgba(0,0,0,0.5);
+}
+.proof-btn b{
+	margin-right: 4px;
+	font-weight: bold;
+	font-size: 18px;
+}
+.table{
+	background: white!important;
+}
+.proof-blue{
+	background: #0099de;
+}
+.proof-default{
+	background: #e1bee7;
+}
+.proof-orange{
+	background: #ffdead;
+	color: #000!important;
+}

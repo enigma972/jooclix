@@ -1,0 +1,388 @@
+		#wrapper{
+			margin: auto;
+			width: 100%;
+			max-width: 2000px;
+			min-width: 1280px;
+		}
+		body{
+			background-image: url(/outils/Images/ctn-bg1.png);
+		}
+		.header{
+			background: #28543b;
+		}
+
+		.wrapper-navigation{
+			width: 1000px; 
+			margin: auto;
+		}
+		.wrapper-navigation .navbar-logo{
+			width: 20%;
+		}
+		.navbar-logo a{
+			text-decoration: none!important;
+		}
+		.navbar-logo .text-1{
+			font-size: 60px;
+			font-family: "Brush Script Std";
+			font-weight:900;
+			color: white;
+		}
+		.navbar-logo .text-2{
+			font-size: 50px;
+			font-family: "Berlin Sans FB";
+			color: white;
+		}
+		.navbar-logo .text-3{
+			font-weight:900;
+			font-size: 50px;
+			font-family: "Microsoft JhengHei UI";
+			color: #64cc00;
+		}
+		.navbar-navigation{
+			width: 80%;
+			position: relative;
+		}
+
+
+
+        .nav2 {
+          width: 100%;
+          margin:  auto;
+		}
+		.header-repress{
+			height: 8px;
+			background: -webkit-linear-gradient(30deg,rgb(81, 142, 4) 0%, #2d8c16 160%);
+		}
+        .navbar-navigation{
+        	padding-top: 45px;
+        }
+
+        .navbar-navigation li{
+           padding-right: 7px;
+			display: inline;
+
+        }
+
+
+        .navbar-navigation a{
+			border-radius: 2px;
+           	font-size: 15px;
+			padding: 2px 10px;
+            color: white;
+            text-align: center;
+			text-decoration: none!important;
+			font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+        }
+		.navbar-navigation .navigator-ul{
+			list-style: none;
+			width:100%;
+			text-align: right;
+		}
+		.navbar-navigation .btn-deconnection{
+			font-size: 14px;
+			font-family: cursive;
+			border: 1px solid rgba(238,238,238,0.4);
+			background: #ac870a;
+			padding: 0px 6px!important;
+			cursor: pointer;
+		}
+		.nav-btn-login{
+			background-color: black!important;
+		}
+		.nav-btn{
+			background: #64cc00;
+		}
+
+
+		/*
+			Side navigator Earn Button
+			================================
+		 */
+
+		.side-lien{
+			position: fixed;
+		    width: 300px;
+		    left: 0;
+		    top: 0;
+		    margin: 0;
+		    -webkit-transform: translateX(-100%);
+		    transform: translateX(-100%);
+		    height: 100%;
+		    height: calc(100% + 60px);
+		    height: -moz-calc(100%);
+		    padding-bottom: 60px;
+		    background-color: #fff;
+		    z-index: 999;
+		    overflow-y: auto;
+		    will-change: transform;
+		    -webkit-backface-visibility: hidden;
+		    backface-visibility: hidden;
+		    -webkit-transform: translateX(-105%);
+		    transform: translateX(-105%);
+		}
+
+		
+		.left-aligned{
+			top: 170px; 
+			height: 60%; 
+			border-bottom: 10px solid green; 
+			width: 250px!important; left: -265px;
+		}
+
+		.Earny-side{
+			cursor: pointer;
+		}
+
+		.side-lien li:hover {
+		  background-color: rgba(0, 0, 0, 0.05);
+		}
+		.side-lien li {
+		  float: none;
+		  line-height: 48px;
+		  list-style-type: none;
+		  position: relative;
+		  left: -20px;
+		  margin-top: 1%;
+		  width: 100%;
+		   background-color: rgba(0, 0, 0, 0.05);
+		}
+		.side-lien i{
+			float: left;
+		  height: 48px;
+		  line-height: 48px;
+		  margin: 0 32px 0 0;
+		  width: 24px;
+		  color: rgba(0, 0, 0, 0.54);
+		}
+
+		.side-lien a{
+		color: black;
+		  display: block;
+		  font-size: 12px;
+		  font-weight: 500;
+		  height: 35px;
+		  line-height: 35px;
+		  padding: 0 32px;
+		  text-decoration: none;
+		}
+
+		.side-earn{
+			color:white;height: 40px; text-align: center; line-height: 40px;
+		}
+
+		.wrapper-article-content{
+			width: 1000px;
+			margin: auto;
+		}
+
+		/* ================ debut ============== */
+		.footer{
+			background: #28543b;
+			width:100%;
+			margin-top: 9%!important;
+			margin: auto;
+			border-radius: 4px;
+		}
+		.footer .repress-footer{
+			background: -webkit-linear-gradient(30deg,rgb(76, 142, 0) 0%, #438e01 130%);
+			height: 8px;
+		}
+		.footer-wrapper{
+			padding-top:7px;
+			margin: auto;
+			width:1000px;
+		}
+
+		.footer-title{
+			padding-top: 3px;
+			color: whitesmoke;
+			font-family: "Levenim MT";
+		}
+
+		.page-footer{
+			margin: auto;
+			width:100%;
+			padding-top: 10px;
+		}
+		.page-footer .child{
+			float: left;
+			width:50%;
+		}
+		.footer-copyright{
+			padding:9px;
+			color: whitesmoke;
+			font-family: cursive;
+		}
+		.footer-btn{
+			text-align: right;
+			padding-right:10px;
+		}
+		.footer-btn a{
+			padding:3px 10px;
+			background: black;
+			color: white;
+			border-radius: 3px;
+			font-size: 13px;
+			font-family: cursive;
+			text-decoration: none!important;
+		}
+
+
+
+		/* Color code
+===============================
+ */
+		.text-orange{
+			color: #ff7f00!important;
+		}
+		.orange{
+			background: #eb7500!important;
+		}
+		.text-black{
+			color: black!important;
+		}
+		.black{
+			background: black!important;
+		}
+		.text-greenLette{
+			color: rgb(81, 142, 4)!important;
+		}
+		.greenLette{
+			background:rgb(98, 203, 2)!important ;
+		}
+		.maroon-m{
+			background-color: #a9841c!important;
+		}
+		.text-blue{
+			color: #70c4ff!important;
+		}
+		.white{
+			background-color: white !important;
+		}
+		.text-white{
+			color: white!important;
+		}
+		.gainsboro{
+			background: gainsboro!important;
+		}
+
+		/*
+		Nav user navigator
+		 */
+		.nav-user{
+			text-align: right;
+			position: absolute;
+			top: 0px;
+			margin:auto;
+			width:100%;
+			margin-bottom: 5%;
+		}
+		.nav-user a{
+
+		}
+		.nav-user-wrapper{
+			background: black;
+			float: right;
+			padding: 4px 10px;
+			border-bottom-left-radius: 6px;
+			border-bottom-right-radius: 6px;
+		}
+
+		.nav-user-title-member{
+			color: #1bff00!important;
+			font-weight: bold;
+		}
+
+		/*
+			Error page 404
+		 */
+		.error-wrapper{
+			margin-top: 10%!important;
+			
+			margin: auto;
+			box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+			border: 1px solid #ddd;
+			background: rgba(255,255,255,0.7);
+			padding: 40px;
+
+			padding-top: 50px!important;
+			border-radius: 8px;
+		}
+		.error-item1{
+			float: left;
+			width: 30%;
+		}
+		.error-item2{
+			float: left;
+			width: 70%;
+		}
+		.error-item1 img{
+			height: 140px;
+		}
+		.error-title{
+			font-size: 3em;
+		}
+		.error-article{
+			font-size: 4em;
+			font-family:cursive;
+		}
+
+		.back-modal{
+			position: fixed;
+			background: rgba(0,0,0,0.5);
+			height: 100%;
+			width: 100%;
+			left: 0;
+			bottom: 0;
+			top: 0;
+			display: none;
+		}
+		.deconnection{
+			position: fixed;
+			padding: 20px;
+			top:-50%;
+			width: 100%;
+			z-index: 1000;
+			opacity: 0;
+			transition: 0.3s;
+		}
+		.deconnection-wrapper{
+			background: white;
+			border-top: 5px solid #559a10;
+			border-radius: 7px;
+			padding: 10px;
+			width: 20%;
+			margin: auto;
+		}
+		.deconnection-title{
+			text-align: center;
+			font-size: 2em;
+			font-family: cursive;
+		}
+		.deconnection-btn{
+			width: 100%;
+			margin: auto;
+			margin-top: 8%!important;
+			margin-bottom: 8%!important;
+		}
+		.deconnection-btn div{
+			float: left;
+			width: 50%;
+			text-align: center;
+		}
+		.deconnection-btn-a a{
+			width: 30%;
+			background: orange;
+			padding: 7px 15px;
+			border-radius: 10px;
+			color: whitesmoke;
+			text-decoration: none;
+		}
+		.deconnection-btn-b a{
+			width: 40%;
+			background: black;
+			padding: 7px 15px;
+			border-radius: 10px;
+			color: whitesmoke;
+			text-decoration: none;
+		}

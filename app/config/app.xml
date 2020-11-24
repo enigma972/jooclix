@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+    <!-- Database Configuration -->
+        <config var="db_driver" value="pdo_mysql"/>
+        <config var="db_host" value="localhost"/>
+        <config var="db_port" value="3306"/>
+        <config var="db_name" value="jooclix"/>
+        <config var="db_user" value="root"/>
+        <config var="db_password" value=""/>
+    <!--/ Database Configuration -->
+
+    <!-- CSRF -->
+        <config var="secret" value="ee3d24fb6f5e546286ff09f1068ed4b9"/>
+    <!--/ CSRF -->
+
+    <!-- Directory -->
+        <config var="actual_doctrine_dir" value="src/Compte/Entity"/>
+        <config var="cache_dir" value="var/cache"/>
+        <config var="session_dir" value="var/sessions"/>
+        <config var="logs_dir" value="var/logs"/>
+    <!--/ Directory -->
+
+    <!-- SMTP Configuration -->
+        <config var="smtp_host" value="stmp.google.com"/>
+        <config var="smtp_port" value="25"/>
+        <config var="smtp_secure" value=""/>
+        <config var="smtp_auth" value=""/>
+        <config var="smtp_username" value="joel"/>
+        <config var="smtp_password" value="joel"/>
+    <!--/ SMTP Configuration -->
+
+</configs>

@@ -1,0 +1,176 @@
+.rentRD-wrapper{
+    background: rgba(255,255,255,0.4);
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    padding-bottom: 4%!important;
+    margin: auto;
+    padding: 20px;
+}
+.rentDR-header{
+    background: white;
+    padding: 14px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+    margin-bottom: 2%;
+    border-bottom:4px solid #29553b;
+    border-top: 6px solid #66cd00;
+}
+.rentRD-title{
+    margin: auto;
+    width: 100%;
+    font-size: 17px;
+}
+.rentRD-title-left{
+    width: 80%;
+    float: left;
+    line-height: 36px;
+}
+.rentRD-title-right{
+    width: 20%;
+    float: left;
+    text-align: right;
+}
+
+.rentRD-title b{
+    font-size: 19px;
+    margin-left: 9%;
+    font-family: serif;
+}
+.rentRD-title img{
+    height: 39px;
+    border-radius: 50px;
+
+}
+
+.rentDR-number{
+    margin-bottom: 2%;
+}
+.rentDR-page{
+    width: 30%;
+    border-radius: 6px;
+}
+.rentDR-page select{
+    background: aliceblue;
+    height: 30px!important;
+    border-radius: 2px!important;
+}
+
+
+
+
+.rentRD-table{
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    border: 2px solid rgba(41, 85, 59,0.2);
+}
+.rentRD-table table{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    border: 3px solid #ddd;
+    background: white;
+    border-radius: 3px;
+    user-select: none;
+}
+.rentRD-table table thead{
+    background:#29553b;
+    color: whitesmoke;
+    padding: 10px;
+    border-bottom: 4px solid #66cd00;
+}
+.rentRD-table-foot{
+    border-top: 4px solid #66cd00;
+    color: azure;
+    font-size: 14px;
+    padding: 6px;
+    background: rgb(41, 85, 59);
+}
+.rentRD-table-foot span{
+    margin-right: 3%;
+}
+.rentRD-table-foot b{
+    font-family: serif;
+}
+.rentRD-table table thead td{
+    font-family: cursive;
+    height: 40px;
+    border-right: 1px solid white;
+}
+.rentRD-table table tbody td i{
+    background-position: 1px 16px;
+    display: inline-block;
+    height: 17px;
+    width: 17px;
+    position: relative;
+    float: left;
+    left: 5px;
+    top: 3px;
+    background-image: url('/outils/Images/money/iconset.png');
+}
+.rentRD-table table tbody td{
+    font-size: 14px;
+    border-right: 1px solid rgba(0,0,0,0.5);
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.rentRD-pagination{
+    margin: auto;
+    width:20%;
+    text-align: center;
+    margin-top: 4%!important;
+}
+.rentRD-pagi-item1{
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+.rentRD-pagi-item2{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.rentRD-pagination i{
+    font-size: 20px;
+}
+.rentRD-pagination a{
+    color: black;
+    padding: 5px 10px;
+    border-radius: 3px;
+    background: #ebebeb;
+    border:1px solid rgba(0,0,0,0.1)
+}
+.rentRD-pagi-active{
+    color: azure!important;
+    background: #64cc00!important;
+}
+
+.rentRD-table-footer{
+    margin-top: 4%;
+}
+.rentRD-table-footer-wrapper{
+    width: 58%;
+    padding: 10px;
+    background: #b1983c;
+    border-radius: 5px;
+}
+.rentRD-table-title{
+    font-size: 13px;
+    color: white;
+    font-family: cursive;
+    margin-bottom: 3%;
+}
+.rentRD-table-footer-wrapper select{
+    background: white;
+    height: 30px!important;
+    border-radius: 2px!important;
+}
+/*
+    Color Filleul
+ */
+.RD-orange{
+    background: #f6dfb3!important;
+}
+.RD-green{
+    background: rgb(135, 255, 25)!important;
+}

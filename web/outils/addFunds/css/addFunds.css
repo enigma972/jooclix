@@ -1,0 +1,144 @@
+.add{
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+    background: rgba(255,255,255,0.4);
+    border-top: 6px solid #29553b;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin: auto;
+}
+.add-wrapper{
+    position: relative;
+}
+.add-title{
+    font-size: 2em;
+    font-family: cursive;
+    position: relative;
+    color: #0f9b25;
+    padding: 15px;
+}
+.add-type{
+    margin: auto;
+    width: 100%;
+}
+.add-item{
+    float: left;
+    width:20%;
+    padding: 30px;
+}
+.add-item-wrapper{
+    background: white;
+    border-radius: 7px;
+    padding: 10px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.add-circle{
+    height: 40px;
+    text-align: center;
+
+}
+.add-circle img{
+    height: 100%;
+    max-width: 100%;
+    width: 70%;
+}
+
+/*
+    class modal add your click processeur
+ */
+.add-modal{
+    position: fixed;
+    width: 100%;
+    top: 40%;
+    z-index: 1000;
+    display: none;
+}
+.add-modal-wrapper{
+    width:40%;
+    left: 5%;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+    border: 1px solid #ddd;
+    background: rgba(255,255,255,0.9);
+    padding: 0px 40px;
+    border-top: 7px solid #5bd900;
+    padding-top: 40px!important;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    position: relative;
+}
+.add-info{
+    opacity: 0;
+    transition: 0.3s;
+    width: 40%;
+    left: 45%;
+    top: -20px;
+    padding: 20px;
+    background: chocolate;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 19px;
+    position: relative;
+}
+.add-modal-wrapper .add-annuler{
+    position: absolute;
+    color: white;
+    border-radius: 50px;
+    font-size: 24px;
+    right:20px;
+    top: 8px;
+    cursor: pointer;
+    padding: 2px;
+    background: chocolate;
+}
+.add-modal-img img{
+    height: 30px;
+}
+.add-modal-title{
+    font-size: 2em;
+    font-family: cursive;
+}
+.add-modal-alert{
+    color: chocolate;
+    font-size: 13px;
+    text-align: right;
+}
+.add-name input{
+    background: rgba(95, 221, 0,0.1);
+}
+.add-name span{
+    color: white;
+    background: #5ddb00;
+}
+.add-submit{
+    text-align: center;
+}
+.add-submit input{
+    width: 100%;
+    background: chocolate;
+    padding: 6px 15px;
+    color: white;
+    font-family: Leelawadee;
+    border-radius: 9px;
+    border: 1px solid chocolate;
+}
+
+
+
+
+
+
+
+/*
+    class back-modal
+ */
+.back-modal{
+    position: fixed;
+    background: rgba(0,0,0,0.2);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    display: none;
+}

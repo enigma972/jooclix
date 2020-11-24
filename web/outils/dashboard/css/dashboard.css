@@ -1,0 +1,322 @@
+.table-panneau{
+	/*background: -webkit-linear-gradient(top,#07d634 0%,#101010 100%);*/
+	background: #ab8612;
+	padding: 8px;
+	text-align: center;
+	font-family: cursive;
+	border-radius: 5px;
+}
+
+.dashboard-info{
+	float: right;
+	width: 30%;
+}
+.dashboard-info span{
+	display: block;
+	min-height: 50px;
+}
+
+.dashboard-info-nav{
+	text-align: center;
+	width: 90%;
+	margin: auto;
+}
+.dashboard-info-nav a{
+	border-radius: 2px;
+	border-top: 3px solid rgba(245,245,245,0.2);
+	border-bottom: 3px solid rgba(245,245,245,0.2);
+	font-size: 15px;
+	padding: 2px 10px;
+	color: white;
+	text-align: center;
+	text-decoration: none!important;
+	font-family: cursive;
+	display: block;
+	margin-bottom: 5%;
+	width: 80%;
+}
+.dashboard-info-nav a i{
+	margin-right: 3%;
+}
+.dashboard-child-user-wrapper, .dashboard-child-user-wrapper1, .backboard-advertisements{
+	width:100%;
+	margin: auto;
+}
+.dashboard-child-user-wrapper{
+	border-top: 9px solid #24523b;
+	padding-top: 30px;
+	border-radius: 7px;
+	background: white;
+	border-bottom: 3px solid black;
+}
+.dashboard-text span{
+	display: block;
+	text-align: center;
+	font-size: 19px;
+	font-family: monospace;
+}
+.dashboard-text i{
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	font-family: cursive;
+}
+
+.backboard-advertisements p{
+	border-color: rgba(67, 114, 6,0.1);
+	/*background: linear-gradient(rgb(98, 203, 2) 0%, rgb(91, 177, 3) 50%, rgb(91, 177, 3) 55%, rgb(81, 142, 4) 100%);*/
+	color: green!important;
+	text-align: center;
+	font-family: 'Roboto', 'sans-serif';
+	font-size: 18px;
+	padding: 10px;
+}
+
+#dashboard-title{
+	font-weight: bold;
+	font-size: 20px;
+	font-family: 'Roboto Slab';
+}
+
+.dashboard-user{
+	border-radius: 6px;
+	margin-bottom: 1%!important;
+	margin: auto;
+}
+.dashboard-child-user-left{
+	float: left;
+	width: 20%;
+}
+.dashboard-child-user-right{
+	width: 50%;
+	float: left;
+}
+.dashboard-img-wrapper{
+	margin: auto;
+	width:100%;
+}
+.dashboard-img{
+	float: left;
+	width: 33.33%;
+}
+.dashboard-img-circle{
+	height: 90px;
+	margin: auto;
+	overflow: hidden;
+	width: 90px;
+	border-radius: 50px;
+	text-align: center;
+}
+.dashboard-img-circle img{
+	height:90px;
+}
+
+.dashboard-circle img{
+	height: 180px;
+}
+
+.nav-tabs a{
+	color:  white;
+	font-family: Rockwell;
+}
+
+.table-title{
+	color: white;
+}
+.tab-content table{
+	width: 100%; margin: auto;
+	padding-bottom: 60px;
+	border:1px solid #ddd;
+}
+.nav-tabs .active a{
+	background: #f1efef!important;
+}
+
+.table1{
+	width: 100%;
+	margin: auto;
+	margin-bottom: 3%!important;
+	background: white;
+}
+
+.tab-content table tr{
+	height: 40px;
+	border-bottom: 1px solid #ddd;
+}
+
+/*
+	onglets dashboard user================
+ */
+.table-wrapper{
+	margin: auto;
+}
+.color-tr-c{
+	background: #ececec!important;
+}
+.color-tr-e{
+	background-color: #edf7f7!important;
+}
+.onglets-dashboard{
+	background: #ededed;
+	width: 65%;
+	float: left;
+	border-radius: 4px;
+}
+.onglets-dashboard .nav{
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	background:white;
+	padding: 8px;
+	padding-bottom: 0px!important;
+}
+.onglets-wrapper{
+	width: 97%; margin: auto;
+}
+.onglets-child{
+	width:100%;
+	margin-top: 5%;
+}
+
+#table i{
+	color: #dc8f1c;
+	margin-right: 3%;
+}
+#table tr td i{
+	background: url(/outils/Images/money/iconset.png);
+	display: inline-block;
+	height: 17px;
+	width: 17px;
+	margin-left: 2%;
+}
+#table tr .img-a{
+	background-position: 1px 16px;
+}
+#table tr .img-b{
+	background-position: -16px 16px;
+}
+#table tr .img-c{
+	background-position: 0px 65px;
+}
+#table a{
+	float: right;
+	padding: 7px;
+	text-decoration: none!important;
+	color: #ab8612;
+}
+
+/*
+concours
+ */
+.onglets-dashboard2{
+	float: right;
+	width:35%;
+}
+.concours-wrapper{
+	width: 95%;
+	margin: auto;
+	background: white;
+}
+.concours-title{
+	text-align: center;
+	padding:10px;
+	color: white;
+	background-color: #26533b;
+	font-family: "Trajan Pro";
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.concours-article-party-1{
+	display: table;
+	padding:10px;
+	width: 100%;
+	text-align: center;
+}
+.concours-header{
+	vertical-align: middle;
+	display: table-cell;
+	width: 33.33%;
+}
+.concours-header i{
+	font-size: 4em;
+}
+.concours-money{
+	font-size: 18px;
+	font-family:cursive;
+}
+.concours-img{
+	text-align: center;
+}
+.concours-image{
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: auto;
+}
+.concours-image img{
+	height:100%;
+}
+.concours-text1, .concours-text2{
+	display: block;
+}
+.concours-text1{
+	text-align: center;
+	margin-top: 2%;
+	font-family: "Trajan Pro";
+}
+.concours-text2{
+	background: #64cc00;
+	color: white;
+	padding: 5px;
+}
+
+/*
+NEW
+ */
+.new{
+	margin-top: 2%;
+	height: 320px;
+}
+.new-wrapper{
+	width: 95%;
+	margin: auto;
+	background: white;
+}
+.new-title{
+	padding: 7px;
+	background-color: #28543b;
+	font-family: "Trajan Pro";
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+.new-article{
+	padding: 10px;
+	overflow: auto;
+	height: 260px;
+}
+.new-data{
+	text-align: right;
+	font-family: cursive;
+	display: block;
+	font-size: 13px;
+}
+.new-title-annouce{
+	font-size: 18px;
+	color: maroon;
+}
+.new-description ul li{
+	font-family: cursive;
+}
+.new-description ul{
+	padding-left: 20px;
+}
+.new-footer{
+	padding: 6px;
+	background: #66cd00;
+	color: white;
+	font-family: cursive;
+	text-align: center;
+}

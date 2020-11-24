@@ -1,0 +1,24 @@
+{
+  "name": "lusavuvu/lussi2",
+  "description": "The web framework",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Joel Lusavuvu",
+      "email": "lusavuvujoel39@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "": "src/",
+      "app\\": "app/"
+    }
+  },
+  "require": {
+    "doctrine/orm": "2.5.*",
+    "doctrine/cache": "1.6.*",
+    "monolog/monolog": "^1.23"
+  }
+}

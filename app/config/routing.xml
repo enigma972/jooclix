@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<routes>
+    <file module="Demo" src="src/Demo/Ressources/Config/routes.xml" />
+    <file module="Admin" src="src/Admin/Ressources/Config/routes.xml" />
+    <file module="Compte" src="src/Compte/Ressources/Config/routes.xml" />
+    <file module="Core" src="src/Core/Ressources/Config/routes.xml" />
+    <file module="Forum" src="src/Forum/Ressources/Config/routes.xml" />
+    <file module="Home" src="src/Home/Ressources/Config/routes.xml" />
+</routes>

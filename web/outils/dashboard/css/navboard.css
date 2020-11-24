@@ -1,0 +1,100 @@
+.static-js{
+    z-index: 1000!important;
+}
+.static-user ul{
+    margin:auto;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.static-hover{
+    width: 100%; margin: auto;
+}
+.static-user{
+    background: rgba(251,149,53,0.4);
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.static-user li{
+    display: inline-block;
+    padding-right: 10px;
+    border-right: 1px solid rgba(255,255,255,0.72);
+}
+
+.static-user a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto Slab';
+    font-size: 15px;
+}
+
+/* wrapper content page
+    ==================
+ */
+.dashboard-envelop{
+    width: 94%; margin: auto;
+}
+
+
+
+
+/* Party colon dashboard
+   ========================
+*/
+.dashboard{
+    margin: auto;
+    width: 1000px;
+    margin-top: 5%!important;
+
+}
+.dashboard-wrapper{
+    float: left;
+    width:20%;
+}
+.dashboard-title{
+    background: green;
+    height:80px;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    font-size: 19px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.dashboard-wrapper ul{
+    list-style: none;
+    padding-left: 0;
+}
+.dashboard-wrapper ul li{
+    display: block;
+    background: white;
+    border-bottom: 1px solid #eee;
+    padding: 8px;
+}
+.dashboard-wrapper ul li:hover{
+    background: #ffdead;
+}
+.dashboard-wrapper ul li a{
+    text-decoration: none!important;
+    color: #444;
+    text-align: justify;
+    font-size: 15px;
+   font-weight: 400;
+    padding-left: 30px;
+    display: block;
+
+}
+.dashboard-child-title{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: black!important;
+    color: white;
+}
+.dashboard-wrapper ul li a i{
+    position: relative;
+    top: -4px;
+    font-size: 17px;
+    color: #444!important;
+    left: -20px;
+}

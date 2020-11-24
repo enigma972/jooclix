@@ -1,0 +1,228 @@
+.article{
+	width: 100%;
+	margin: auto;
+	height: 100%;
+	margin-top: 5%!important;
+}
+.menu{
+	background: #a9d0cb;
+	border-radius: 4px;
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.7);
+	border-right: 1px solid whitesmoke;
+	border-bottom: 1px solid whitesmoke;
+}
+.menu-wrapper{
+	width: 100%;
+	margin: auto;
+}
+.menu-left{
+	padding: 20px;
+	width:40%;
+	float: left;
+}
+.menu-right{
+	width:60%;
+	float: left;
+}
+.menu-left-title{
+	text-align: left;
+	font-size: 29px;
+	font-family: unset;
+	color: #063e06;
+}
+.menu-left-title b{
+	color: #6b7b12;
+	text-transform: uppercase;
+	font-family: "Sitka Text";
+}
+.menu-left-btn{
+	text-align: left;
+	margin-top: 7%;
+}
+.menu-left-btn a{
+	font-family: cursive;
+	color: whitesmoke;
+	padding: 7px 20px;
+	background: green;
+	font-size: 18px;
+	border-radius: 6px;
+	text-decoration: none!important;
+}
+.menu-right-img{
+	height: 297px;
+	overflow: hidden;
+	text-align: center;
+}
+.menu-right-img img{
+	height: 297px;
+}
+
+/*
+	class Card home
+ */
+.card{
+	margin-top: 5%;
+}
+.card-wrapper{
+	margin: auto;
+	width:100%;
+}
+.card-item{
+	float: left;
+	width:33.33%;
+}
+.card-item-wrapper{
+	width:95%;
+	margin: auto;
+	padding:10px;
+	background: white;
+	border-radius: 5px;
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.7);
+}
+.card-header{
+	padding-bottom: 8%;
+	padding-top:7%;
+}
+.card-circle{
+	height:90px;
+	width:90px;
+	margin: auto;
+	overflow: hidden;
+	border-radius: 50px;
+}
+.card-circle img{
+	height: 90px;
+}
+.card-title{
+	text-align: center;
+	font-weight: 800;
+	color: darkgreen;
+	margin-top: 6%;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.card-body{
+	margin-top: 3%;
+	color: grey;
+	text-align: center;
+	padding: 20px;
+	font-size: 12px;
+}
+
+/*
+	Class Static
+ */
+.static{
+	position: relative;
+	margin-top: 3%;
+	text-align: center;
+}
+.static-wrapper{
+	margin: auto;
+	width:98%;
+	position: relative;
+}
+.static-wrapper:after{
+	content: " ";
+	position: relative;
+	height: 10px;
+	top: 38px;
+	left: 182.5px;
+	width: 63%;
+	border-bottom: 2px solid #888888;
+}
+.static-slogan{
+	position:absolute;
+	height: 45px;
+	width: 20%;
+	display: none;
+	background: green;
+	left: -80px;
+}
+.static-item{
+	float: left;
+	width:50%;
+	border-radius: 6px;
+	position: relative;
+	text-align: center;
+}
+.static-title{
+	color: ghostwhite;
+	background: rgb(174, 183, 164);
+	padding: 9px;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: Narkisim;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom: 4px solid darkgreen;
+}
+.static-item-child{
+	width:73%;
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.7);
+	background: rgba(255,255,255,1.5);
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+.static-item-child:after{
+	content: " ";
+	border-left: 2px solid #888888;
+	position: absolute;
+	width: 31%;
+	height: 48px;
+}
+.static-article{
+	margin-top: 1%;
+	padding-bottom: 3%;
+}
+.static-article ul{
+	margin-top: 5%;
+	list-style: none;
+}
+.static-article ul i{
+	padding: 3px;
+	border-radius: 50px;
+	margin-right: 3%;
+}
+.static-article ul li{
+	margin-bottom: 2%;
+	font-family: unset;
+	text-align: left!important;
+}
+
+
+/*
+	class info
+ */
+.info{
+	margin-top: 2%;
+}
+.info-wrapper{
+	margin: auto;
+	width: 96%;
+}
+.info-item{
+	float: left;
+	width:33.333%;
+	text-align: center;
+}
+.info-item i{
+	font-size: 19px;
+	border-radius: 50px;
+	border: 2px solid #1e6b1e;
+	padding: 10px;
+	color: #1e6b1e;
+}
+
+.info-item span{
+	margin-left: 1%;
+	font-size: 17px;
+	font-family: cursive;
+}
+.info-item b{
+	margin-left: 2%;
+	font-size: 20px;
+	font-family: Tahoma;
+	font-weight: 20!important;
+}

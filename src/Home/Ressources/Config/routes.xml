@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+	<route url="/" module="Home" controller="HomeController" action="index" vars="" />
+	<route url="/proof" module="Home" controller="HomeController" action="proof" vars="" />
+	<route url="/view" module="Home" controller="HomeController" action="view" vars="" />
+</routes>

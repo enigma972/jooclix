@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<routes>
+    <route url="/_config" module="Config" controller="ConfigController" action="config"/>
+    <route url="/_configurator/step/(0|1)" module="Config"
+           controller="ConfigController" action="configurator_step" vars="step"/>
+    <route url="/_configurator/step/(0|1)[/](.*)" module="Config"
+           controller="ConfigController" action="configurator_step" vars="step,generate" />
+    <route url="/_configurator/final" module="Config"
+           controller="ConfigController" action="configurator_final" vars=""/>
+</routes>

@@ -1,0 +1,17 @@
+#!/usr/bin/env php
+<?php
+
+set_time_limit(0);
+
+use app\core\Terminal\LussiTerminal;
+use app\Config;
+
+require __DIR__ . '/../vendor/autoload.php';
+
+if (!empty($argv[1]) && is_string($argv[1])) {
+    $terminal = new LussiTerminal($argv[1], $argv, new Config());
+} else {
+    LussiTerminal::Main();
+}
+
+echo "\n";
